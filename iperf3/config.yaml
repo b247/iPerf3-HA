@@ -1,6 +1,6 @@
 name: "iPerf3 SpeedTest Server"
 description: "Home Assistant iPerf3 server for testing LAN and WiFi network performance."
-version: "1.0.0"
+version: "1.0.1"
 slug: "iperf3_server"
 init: false
 arch:
