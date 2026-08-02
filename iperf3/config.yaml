@@ -10,7 +10,8 @@ arch:
   - armv7
   - i386
 ports:
-  9201/tcp: 9201
-  9201/udp: 9201
+  5201/tcp: 5201
+  5201/udp: 5201
 ports_description:
-  9201/tcp: "iPerf3 Server Port"
+  5201/tcp: "iPerf3 Server TCP Port"
+  5201/udp: "iPerf3 Server UDP Port"
