@@ -17,7 +17,7 @@ Local iPerf3 network performance benchmarking server for Home Assistant. Provide
 3. Click the **3 Dots** (top-right corner) $\rightarrow$ Select **Repositories**.
 4. Paste the GitHub repository URL:
    ```text
-  https://github.com/b247/iPerf3-HA
+     https://github.com/b247/iPerf3-HA
 5. Click Add and close the repository dialog.
 6. Refresh the Add-on Store, search for iPerf3 Server, and click Install.
 7. Click Start.
