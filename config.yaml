@@ -1,0 +1,16 @@
+name: "iPerf3 SpeedTest Server"
+description: "Home Assistant iPerf3 server for testing LAN and WiFi network performance."
+version: "1.0.0"
+slug: "iperf3_server"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  9201/tcp: 9201
+  9201/udp: 9201
+ports_description:
+  9201/tcp: "iPerf3 Server Port"
