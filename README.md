@@ -15,13 +15,13 @@ Local iPerf3 network performance benchmarking server for Home Assistant. Provide
 ## Installation
 
 1. Open your **Home Assistant** dashboard.
-2. Navigate to **Settings** &rarr; **Add-ons** &rarr; **Add-on Store**.
-3. Click the **3 Dots** (top-right corner) &rarr; Select **Repositories** &rarr; **Add (repository)**
-4. Paste the GitHub repository URL:
+2. Navigate to **Settings** &rarr; **Apps** &rarr; **Install app**.
+3. Use the **3 Dots** (top-right corner) &rarr; **Repositories** &rarr; **Add (repository)**
+4. Use this GitHub repository URL:
    ```text
    https://github.com/b247/iPerf3-HA
-5. Click **Add** and close the repository dialog.
-6. Refresh the App Store, search for **iPerf3 Server** &rarr; **Install** &rarr; **Start**.
+5. **Add** to save, then return to **App store**
+6. Search for **iPerf3 Server** &rarr; **Install** and **Start** the App.
 
 ## Testing Network Performance with iPerf3
 Use any iPerf3 client to test against <HOME_ASSISTANT_IP>:5201. For iOS and Android, **Network Tools by Hurricane Electric** is a great option. For Linux, macOS, or Windows, you can use any suitable FOSS CLI or GUI tool.
